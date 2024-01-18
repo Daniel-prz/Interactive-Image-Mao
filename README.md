@@ -2,6 +2,6 @@
 
 Week 2 Day 3 Assignment
 
-Interactive Map 
+Create Interactive Map using HTML
 
  area, map, images
