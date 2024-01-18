@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Image Map</title>
+</head>
+
+<body>
+    <div>
+        <h1>Interactive Image Map</h1>
+        <p>Try it out!</p>
+        <p>Hint: Cars, Lights, Crosswalks</p>
+    </div>
+    <div> <img width="400" usemap="#citystreet" src="deval-parikh-unsplash.jpg" alt="city street">
+        <map name="citystreet">
+            <area target="_blank" shape="rect" coords="400, 410, 235, 310" href="nabeel-syed-unsplash.jpg"
+                alt="Car Traffic">
+            <area target="_blank" shape="rect" coords="150, 410, 220, 240" href="albert-stoynov-unsplash.jpg"
+                alt="Crossing Light">
+
+            <area target="_blank" shape="poly" coords="80, 410, 250, 410, 570, 800, -30, 800, -30, 700"
+                href="mate-rozsa-unsplash.jpg" alt="Crosswalk">
+
+        </map>
+    </div>
+
+
+</body>
+
+</html>
